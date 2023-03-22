@@ -46,7 +46,7 @@ namespace AZKeyVaultSample.KeyVault
             }
         }
 
-        public async Task<bool> RemoveSecret(string secretName)
+        public async Task<bool> DeleteSecret(string secretName)
         {
             try
             {
